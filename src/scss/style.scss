@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "VT323", monospace;
+  background-color: #7d94fe;
+
+  color: #fff;
+}
+
+h1 {
+  margin-top: 6rem;
+  font-family: "Bangers";
+  font-size: 5rem;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.secretNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+  height: 6rem;
+  width: 10rem;
+  background-color: #fdc07d;
+  border-top: 4px solid #e2762d;
+  border-left: 4px solid #e2762d;
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+  color: #e2762d;
+}
+
+.gameContainer {
+  font-size: 2rem;
+  width: 100%;
+  margin-top: 50px;
+  // margin-bottom: 100px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  // border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameInput {
+  background-color: transparent;
+  border: 4px solid #fff;
+  height: 5rem;
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 5rem;
+  width: 10rem;
+}
+
+.check {
+  font-family: "VT323", monospace;
+  font-size: 4rem;
+  margin-top: 20px;
+  width: 10rem;
+  height: 5rem;
+  color: rgb(102, 100, 100);
+  border-top: 4px solid rgb(182, 181, 181);
+  border-left: 4px solid rgb(182, 181, 181);
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+}
+
+.column-right {
+  width: 50%;
+  // border: 1px solid black;
+}
+
+.column-right p {
+  padding-left: 100px;
+}
+
+span {
+  padding-left: 10px;
+}
+
+.tryAgain{
+
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+   font-family: "VT323", monospace;
+   font-size: 2rem;
+   width: 10rem;
+   height: 5rem;
+   color: rgb(102, 100, 100);
+   border-top: 4px solid rgb(182, 181, 181);
+   border-left: 4px solid rgb(182, 181, 181);
+   border-right: 8px solid black;
+   border-bottom: 8px solid black;
+
+
+
+}
+
+.foot {
+  border-top: 4px solid #fff;
+  border-bottom: 10px solid black;
+  // position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-image: url("../../src/img/mgb.png");
+  background-size: contain;
+  background-color: black;
+}

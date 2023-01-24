@@ -32,7 +32,7 @@ check.addEventListener('click', function () {
         info.textContent = win;
         document.querySelector("body").style.backgroundColor = "#60b347";
         boxNumber.style.backgroundColor = "gold";
-        // number.textContent = secretNumber;
+        number.textContent = secretNumber;
     if (score > highscore) {
         highscoreSpan.textContent = score;
     };

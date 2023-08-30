@@ -40,9 +40,9 @@ check.addEventListener('click', function () {
 
 
     }
-    else if (secretNumber > inputValue) {
+    else if (secretNumber !== inputValue) {
         if (score > 1) {
-            info.textContent = "⬇ The number is too low";
+            info.textContent = inputValue > secretNumber ? "⬆ The number is too high" : "⬇ The number is too low";
             score = score -1;
             scoreSpan.textContent = score;
         }    
@@ -52,20 +52,6 @@ check.addEventListener('click', function () {
             document.querySelector("body").style.backgroundColor = "red";
         }
     }
-
-    else if (inputValue > secretNumber) {
-        if (score>1) {
-        info.textContent = "⬆ The number is too high";
-        score = score -1;
-        scoreSpan.textContent = score;
-    }
-    else{
-        info.textContent = lost;
-        scoreSpan.textContent = 0;
-        document.querySelector("body").style.backgroundColor = "red";
-    }
-
-}
 })
 ;
 

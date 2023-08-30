@@ -34,6 +34,7 @@ check.addEventListener('click', function () {
         boxNumber.style.backgroundColor = "gold";
         number.textContent = secretNumber;
     if (score > highscore) {
+        highscore = score;
         highscoreSpan.textContent = score;
     };
 
